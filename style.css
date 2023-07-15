@@ -1,0 +1,162 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    
+    background: black;
+    font-family: calibri;
+    padding-top:0;
+    padding-bottom: 15px;
+    padding-right:15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    text-align: left;
+}
+
+li{
+    list-style: none;  display: inline-block;
+}
+li a{
+    color: white; font-size: 33px; font-weight: bold; margin-right: 15px; 
+}
+
+.button{
+    background-color:blue;
+    font-weight: bold;
+    font-size: 29px;
+    color:white;
+    border-width: 90px;
+    border-top: solid;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    border-radius: 17px;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+    
+
+.btn{
+    align-items: left;
+    justify-content: space-around;
+    text-align: left;
+    font-size: 24px;
+    background-color: black;
+    font-style: oblique;
+    color: peru;
+    margin-right: 30px;
+    padding-right:30px;
+    padding-left: 30px;
+    margin: 0;
+}
+
+
+p{
+    font-family: 'Roboto',sans;
+    font-style: bold;
+    font-size: 30px;
+    -ms-text-kashida-space: unset;
+}
+p span {
+    font-weight: normal;
+
+}
+.intro{
+    /*class*/
+    background-image: url(img/mulan.webp);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    
+}
+.text-white{
+    color: #FFF;
+}
+.intro {
+    color: #FFF;
+    border-color:black;
+    
+}
+
+.intro > p{
+    font-variant-position: left;
+    font-size: 25px;
+}
+.button1{
+    box-sizing: content-box;
+    background-color: #FFF;
+    font-weight: bold;
+    font-size: 15px;
+    color:black;
+   
+}
+.button2{
+    box-sizing: content-box;
+    background-color: #FFF;
+    font-weight: bold;
+    font-size: 15px;
+    color:black;
+   
+}
+.button3{
+    box-sizing: content-box;
+    background-color: #FFF;
+    font-weight: bold;
+    font-size: 15px;
+    color:black;
+}
+.intro h1{
+    color:peru;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.intro h2{
+    color:white;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}    
+.intro h3{
+    color:white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.intro h4{
+    color:white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.intro h5{
+    color:white;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.intro h6{
+    color:white;
+    font-size: 25px;
+    text-transform: calc();
+    text-align: left;
+}
+.intro h7{
+    color:white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.intro h1{
+    color:peru;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
